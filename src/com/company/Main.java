@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         boolean flag = true;
         Scanner scnr = new Scanner(System.in);
+        int count = 0;
         while (flag){
             System.out.println("Enter first argument ");
             long first = scnr.nextLong();
@@ -18,8 +19,10 @@ public class Main {
             if (check == 1){
                 flag = false;
             }
+            count++;
         }
         System.out.println("GoodBye!");
+        System.out.println("Iteration number is " + count);
     }
     //Комментарий для коммина в мастере
     //qwerty
