@@ -21,6 +21,7 @@ public class Main {
         }
         System.out.println("GoodBye!");
     }
+    //Комментарий для коммина в мастере
     protected static long power(long a, long b) {
         int res = 1;
         int i = 0;
