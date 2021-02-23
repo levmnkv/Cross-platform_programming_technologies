@@ -2,6 +2,7 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
+    //Комментарий для создания коммита в ветке
     public static void main(String[] args) {
         boolean flag = true;
         Scanner scnr = new Scanner(System.in);
