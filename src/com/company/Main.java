@@ -25,7 +25,7 @@ public class Main {
         System.out.println("Iteration number is " + count);
     }
     //Комментарий для коммина в мастере
-    //qwerty
+    //qwerty123
     protected static long power(long a, long b) {
         int res = 1;
         int i = 0;
