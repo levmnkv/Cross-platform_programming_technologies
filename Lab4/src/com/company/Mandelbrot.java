@@ -16,7 +16,7 @@ class Mandelbrot extends FractalGenerator{
         range.width = 3;
     }
 
-    public static final int MAX_ITERATIONS = 2000;
+    public static final int MAX_ITERATIONS = 3000;
 
     @Override
     public int numIterations(double x, double y) {
